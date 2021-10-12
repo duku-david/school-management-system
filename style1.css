@@ -1,0 +1,212 @@
+/*base css*/
+@import url('https://fonts.googleapis.com/css?familly=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i');
+a:focus, input:focus, textarea:focus, button:focus {outline:0 solid}
+a:hover{text-decoration: none}
+img{
+	max-width:100%;
+	height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+	margin:0 0 15px;
+	font-weight: 700px;
+}
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+.section-padding{
+
+	padding:80px 0;
+}
+.main-header {
+    width:  100%;
+}
+.theme-bg {
+	/*background: #808080;*/
+    background: #ececec;
+}
+.theme-bg a, .theme-bg h1, .theme-bg h2, .theme-bg h3, .theme-bg h4, .theme-bg p, .theme-bg {
+	color: #337AB7;
+}
+.main-header .rphs-logo h2 {
+    color: #337AB7;
+    padding: 27px;
+    margin:  0;
+    font-size:  46px;
+    text-transform:  uppercase;
+    letter-spacing:  3px;
+    font-weight:  800;
+}
+
+.nav li a {
+    color: #fff;
+    transition: 0.5s;
+    text-transform:  uppercase;
+    font-weight:  600;
+}
+.navbar {
+	margin-bottom: 0px;
+}
+
+.main-menu-wrap {
+    /*background: #ececec;*/
+    background: #30a5ff;
+}
+.navbar-toggle .icon-bar {
+    background: #000;
+}
+.nav li a:hover, .nav li a.active {
+    /*background: #5cb85c;*/
+    /*color:  #fff;*/
+    background:white;
+    color:red;
+}
+@media (min-width: 768px){
+    .navbar-nav{
+        float:none;
+        margin: 0 auto;
+        display: table;
+        table-layout: fixed;
+    }
+}
+.home-banner-bg {
+    background: url(assets/images/pp.png);
+    background-size:  cover;
+    background-repeat:  no-repeat;
+    background-attachment:  fixed;
+    background-position: top center;
+}
+.about-banner-bg {
+    background: url(assets/images/pp2.png);
+    background-size:  cover;
+    background-repeat:  no-repeat;
+    background-attachment:  fixed;
+}
+
+.home-banner:after, .page-banner:after {
+    position:  absolute;
+    content:  '';
+    width:  100%;
+    height:  100%;
+    left:  0;
+    top:  0;
+    background: rgba(0, 0, 0, 0.5411764705882353);
+}
+
+.home-banner, .page-banner {
+    position:  relative;
+}
+
+.home-banner div, .page-banner div {
+    z-index: 10;
+}
+
+.text-light {
+    color:  #fff;
+}
+.banner-min-height {
+	min-height:  30vh;
+}
+.page-banner-min-height {
+	min-height:  50px;
+}
+.display-table {
+	display: table;
+	width: 100%;
+}
+.display-table-cell {
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+}
+.single-about {
+    padding:  20px;
+    border: 1px solid #ccc;
+}
+
+.single-about h3 {
+    text-decoration:  underline;
+    margin-bottom:  30px;
+}
+
+.single-about:hover {
+    box-shadow: 0px 0px 18px 0px #d0d0d0;
+}
+.single-notice a {
+    margin-left: 13px;
+    font-size:  17px;
+}
+.count-circle-box {
+    margin: auto;
+    width: 250px;
+    height: 250px;
+    background: #5cb85c;
+    border-radius: 50%;
+    text-align: center;
+}
+.circle-height {
+	height: 250px;
+}
+.count-circle-box h3 {
+    color:  #fff;
+    vertical-align:  top;
+}
+
+.count-circle-box h3 span.number {
+    font-size: 46px;
+}
+ul.footer-links {
+    columns: 2;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+ul.social-profiles {
+    margin:  0;
+    padding:  0;
+    list-style-type:  none;
+}
+
+ul.social-profiles li {
+    display:  inline-block;
+}
+ul.social-profiles li a {
+    display: block;
+    color: #000;
+    background: #fff;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    line-height: 40px;
+}
+.theme-margin {
+    width: 100%;
+    height: 30px;
+}
+.teacher-section .col-md-4 {
+    margin-bottom: 30px;
+}
+.event-img {
+    max-height: 200px;
+}
+.teacher-section .col-md-4 img {
+    height: 250px;
+}
+.main-logo {
+    width: auto;
+    height: 100px;
+}
+.notice-title-page a {
+    margin-left: 10px;
+}
+p.notice-title-page {
+    font-size: 18px;
+}
+/*.home-banner h2 {
+    text-transform: uppercase;
+}*/
